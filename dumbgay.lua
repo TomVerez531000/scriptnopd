@@ -2163,3 +2163,5 @@ local function QCLD_fake_script() -- Gugyd546D5d5s5.Script
 	game.CoreGui.AntiAfk.Parent = game.CoreGui.Gugyd546D5d5s5
 end
 coroutine.wrap(QCLD_fake_script)()
+
+	
