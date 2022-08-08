@@ -129,12 +129,9 @@ local _41 = Instance.new("TextButton")
 local _42 = Instance.new("TextButton")
 local UICorner_16 = Instance.new("UICorner")
 local Title_4 = Instance.new("TextLabel")
-local Frame2 = Instance.new("Frame")
-local UICorner_17 = Instance.new("UICorner")
-local Title_5 = Instance.new("TextLabel")
 local Misc = Instance.new("Frame")
 local Bar1_4 = Instance.new("Frame")
-local Title_6 = Instance.new("TextLabel")
+local Title_5 = Instance.new("TextLabel")
 local UnlockRebirth = Instance.new("TextButton")
 
 --Properties:
@@ -1245,27 +1242,6 @@ Title_4.Text = "Choose how much"
 Title_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title_4.TextSize = 14.000
 
-Frame2.Name = "Frame2"
-Frame2.Parent = Autofarm
-Frame2.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
-Frame2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Frame2.Position = UDim2.new(1.18271589, 0, 0.187736064, 0)
-Frame2.Size = UDim2.new(0, 151, 0, 256)
-
-UICorner_17.CornerRadius = UDim.new(0, 20)
-UICorner_17.Parent = Frame2
-
-Title_5.Name = "Title"
-Title_5.Parent = Frame2
-Title_5.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
-Title_5.BorderSizePixel = 3
-Title_5.Position = UDim2.new(0.13907285, 0, 0.03125, 0)
-Title_5.Size = UDim2.new(0, 108, 0, 22)
-Title_5.Font = Enum.Font.SourceSans
-Title_5.Text = "Choose egg"
-Title_5.TextColor3 = Color3.fromRGB(255, 255, 255)
-Title_5.TextSize = 14.000
-
 Misc.Name = "Misc"
 Misc.Parent = GuiFrame
 Misc.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -1281,16 +1257,16 @@ Bar1_4.BorderColor3 = Color3.fromRGB(255, 255, 255)
 Bar1_4.Position = UDim2.new(0, 0, 0.0581113808, 0)
 Bar1_4.Size = UDim2.new(0, 257, 0, 0)
 
-Title_6.Name = "Title"
-Title_6.Parent = Misc
-Title_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Title_6.BackgroundTransparency = 1.000
-Title_6.Position = UDim2.new(0.108949415, 0, 0, 0)
-Title_6.Size = UDim2.new(0, 200, 0, 24)
-Title_6.Font = Enum.Font.SourceSans
-Title_6.Text = "Misc"
-Title_6.TextColor3 = Color3.fromRGB(255, 255, 255)
-Title_6.TextSize = 14.000
+Title_5.Name = "Title"
+Title_5.Parent = Misc
+Title_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_5.BackgroundTransparency = 1.000
+Title_5.Position = UDim2.new(0.108949415, 0, 0, 0)
+Title_5.Size = UDim2.new(0, 200, 0, 24)
+Title_5.Font = Enum.Font.SourceSans
+Title_5.Text = "Misc"
+Title_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_5.TextSize = 14.000
 
 UnlockRebirth.Name = "UnlockRebirth"
 UnlockRebirth.Parent = Misc
@@ -1305,15 +1281,15 @@ UnlockRebirth.TextSize = 20.000
 
 -- Scripts:
 
-local function NJYD_fake_script() -- Close.Script 
+local function RGXBVI_fake_script() -- Close.Script 
 	local script = Instance.new('Script', Close)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(NJYD_fake_script)()
-local function PNCOHV_fake_script() -- _1.Script 
+coroutine.wrap(RGXBVI_fake_script)()
+local function IFCHDI_fake_script() -- _1.Script 
 	local script = Instance.new('Script', _1)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1322,8 +1298,8 @@ local function PNCOHV_fake_script() -- _1.Script
 		script.Parent.Parent.Misc.Visible = false
 	end)
 end
-coroutine.wrap(PNCOHV_fake_script)()
-local function XKOFIC_fake_script() -- _3.Script 
+coroutine.wrap(IFCHDI_fake_script)()
+local function FODXK_fake_script() -- _3.Script 
 	local script = Instance.new('Script', _3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1332,8 +1308,8 @@ local function XKOFIC_fake_script() -- _3.Script
 		script.Parent.Parent.Misc.Visible = true
 	end)
 end
-coroutine.wrap(XKOFIC_fake_script)()
-local function NOROMMI_fake_script() -- _2.Script 
+coroutine.wrap(FODXK_fake_script)()
+local function JZFJ_fake_script() -- _2.Script 
 	local script = Instance.new('Script', _2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1342,24 +1318,24 @@ local function NOROMMI_fake_script() -- _2.Script
 		script.Parent.Parent.Misc.Visible = false
 	end)
 end
-coroutine.wrap(NOROMMI_fake_script)()
-local function CNRJ_fake_script() -- TextButton.Script 
+coroutine.wrap(JZFJ_fake_script)()
+local function WKGQI_fake_script() -- TextButton.Script 
 	local script = Instance.new('Script', TextButton)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = script.Parent.Parent.TextBox.Text
 	end)
 end
-coroutine.wrap(CNRJ_fake_script)()
-local function HUJS_fake_script() -- TextButton_2.Script 
+coroutine.wrap(WKGQI_fake_script)()
+local function CCABLN_fake_script() -- TextButton_2.Script 
 	local script = Instance.new('Script', TextButton_2)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.JumpHeight = script.Parent.Parent.TextBox.Text
 	end)
 end
-coroutine.wrap(HUJS_fake_script)()
-local function ASHBTOT_fake_script() -- TextButton_3.Script 
+coroutine.wrap(CCABLN_fake_script)()
+local function JJATOS_fake_script() -- TextButton_3.Script 
 	local script = Instance.new('Script', TextButton_3)
 
 	local Val = Instance.new("BoolValue")
@@ -1408,8 +1384,8 @@ local function ASHBTOT_fake_script() -- TextButton_3.Script
 		end
 	end)
 end
-coroutine.wrap(ASHBTOT_fake_script)()
-local function ZPAZK_fake_script() -- UCMV.Script 
+coroutine.wrap(JJATOS_fake_script)()
+local function GCCQDBW_fake_script() -- UCMV.Script 
 	local script = Instance.new('Script', UCMV)
 
 	local player = game.Players.LocalPlayer
@@ -1418,8 +1394,8 @@ local function ZPAZK_fake_script() -- UCMV.Script
 		player.CameraMaxZoomDistance = 10000000
 	end)
 end
-coroutine.wrap(ZPAZK_fake_script)()
-local function XDPA_fake_script() -- RCMV.Script 
+coroutine.wrap(GCCQDBW_fake_script)()
+local function MTOMGKM_fake_script() -- RCMV.Script 
 	local script = Instance.new('Script', RCMV)
 
 	local player = game.Players.LocalPlayer
@@ -1428,8 +1404,8 @@ local function XDPA_fake_script() -- RCMV.Script
 		player.CameraMaxZoomDistance = 40
 	end)
 end
-coroutine.wrap(XDPA_fake_script)()
-local function YOKBMA_fake_script() -- TextButton_4.Script 
+coroutine.wrap(MTOMGKM_fake_script)()
+local function SFYUK_fake_script() -- TextButton_4.Script 
 	local script = Instance.new('Script', TextButton_4)
 
 	local Autofarm = Instance.new("BoolValue")
@@ -1491,8 +1467,8 @@ local function YOKBMA_fake_script() -- TextButton_4.Script
 	
 	
 end
-coroutine.wrap(YOKBMA_fake_script)()
-local function SSEKIS_fake_script() -- TextButton_5.Script 
+coroutine.wrap(SFYUK_fake_script)()
+local function CJTWP_fake_script() -- TextButton_5.Script 
 	local script = Instance.new('Script', TextButton_5)
 
 	local AutoRebirth = Instance.new("BoolValue")
@@ -1514,16 +1490,16 @@ local function SSEKIS_fake_script() -- TextButton_5.Script
 		end
 	end)
 end
-coroutine.wrap(SSEKIS_fake_script)()
-local function UATH_fake_script() -- Choose.Script 
+coroutine.wrap(CJTWP_fake_script)()
+local function KGJPRW_fake_script() -- Choose.Script 
 	local script = Instance.new('Script', Choose)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Parent.Frame.Visible = true
 	end)
 end
-coroutine.wrap(UATH_fake_script)()
-local function KLEV_fake_script() -- TextButton_6.Script 
+coroutine.wrap(KGJPRW_fake_script)()
+local function IKGZF_fake_script() -- TextButton_6.Script 
 	local script = Instance.new('Script', TextButton_6)
 
 	local AutoBuyEggs = Instance.new("BoolValue")
@@ -1552,8 +1528,8 @@ local function KLEV_fake_script() -- TextButton_6.Script
 		end
 	end
 end
-coroutine.wrap(KLEV_fake_script)()
-local function BXSTHI_fake_script() -- Choose_2.Script 
+coroutine.wrap(IKGZF_fake_script)()
+local function HXNLC_fake_script() -- Choose_2.Script 
 	local script = Instance.new('Script', Choose_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1561,8 +1537,8 @@ local function BXSTHI_fake_script() -- Choose_2.Script
 	end)
 	
 end
-coroutine.wrap(BXSTHI_fake_script)()
-local function MKCKBK_fake_script() -- TextButton_7.Script 
+coroutine.wrap(HXNLC_fake_script)()
+local function JDVVFG_fake_script() -- TextButton_7.Script 
 	local script = Instance.new('Script', TextButton_7)
 
 	local AutoCollectHiddenEggs = Instance.new("BoolValue")
@@ -1582,8 +1558,8 @@ local function MKCKBK_fake_script() -- TextButton_7.Script
 		end
 	end)
 end
-coroutine.wrap(MKCKBK_fake_script)()
-local function UGMI_fake_script() -- TextButton_8.Script 
+coroutine.wrap(JDVVFG_fake_script)()
+local function KVZVHMY_fake_script() -- TextButton_8.Script 
 	local script = Instance.new('Script', TextButton_8)
 
 	local AutoEquipBestPets = Instance.new("BoolValue")
@@ -1605,8 +1581,8 @@ local function UGMI_fake_script() -- TextButton_8.Script
 		end
 	end)
 end
-coroutine.wrap(UGMI_fake_script)()
-local function QEXP_fake_script() -- TextButton_9.Script 
+coroutine.wrap(KVZVHMY_fake_script)()
+local function KYTSCUH_fake_script() -- TextButton_9.Script 
 	local script = Instance.new('Script', TextButton_9)
 
 	local AutoCollectQuests = Instance.new("BoolValue")
@@ -1626,8 +1602,8 @@ local function QEXP_fake_script() -- TextButton_9.Script
 		end
 	end)
 end
-coroutine.wrap(QEXP_fake_script)()
-local function GZYP_fake_script() -- _1_2.Script 
+coroutine.wrap(KYTSCUH_fake_script)()
+local function GZRZ_fake_script() -- _1_2.Script 
 	local script = Instance.new('Script', _1_2)
 
 	wait(0.1)
@@ -1637,8 +1613,8 @@ local function GZYP_fake_script() -- _1_2.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(GZYP_fake_script)()
-local function WSCW_fake_script() -- _2_2.Script 
+coroutine.wrap(GZRZ_fake_script)()
+local function PWLE_fake_script() -- _2_2.Script 
 	local script = Instance.new('Script', _2_2)
 
 	wait(0.1)
@@ -1648,8 +1624,8 @@ local function WSCW_fake_script() -- _2_2.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(WSCW_fake_script)()
-local function YWIHO_fake_script() -- _3_2.Script 
+coroutine.wrap(PWLE_fake_script)()
+local function JXCS_fake_script() -- _3_2.Script 
 	local script = Instance.new('Script', _3_2)
 
 	wait(0.1)
@@ -1659,8 +1635,8 @@ local function YWIHO_fake_script() -- _3_2.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(YWIHO_fake_script)()
-local function PGEXFP_fake_script() -- _4.Script 
+coroutine.wrap(JXCS_fake_script)()
+local function YVXJQQ_fake_script() -- _4.Script 
 	local script = Instance.new('Script', _4)
 
 	wait(0.1)
@@ -1670,8 +1646,8 @@ local function PGEXFP_fake_script() -- _4.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(PGEXFP_fake_script)()
-local function HREEEVM_fake_script() -- _5.Script 
+coroutine.wrap(YVXJQQ_fake_script)()
+local function FXFNRX_fake_script() -- _5.Script 
 	local script = Instance.new('Script', _5)
 
 	wait(0.1)
@@ -1681,8 +1657,8 @@ local function HREEEVM_fake_script() -- _5.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(HREEEVM_fake_script)()
-local function MIBLLTT_fake_script() -- _6.Script 
+coroutine.wrap(FXFNRX_fake_script)()
+local function CPIQR_fake_script() -- _6.Script 
 	local script = Instance.new('Script', _6)
 
 	wait(0.1)
@@ -1692,8 +1668,8 @@ local function MIBLLTT_fake_script() -- _6.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(MIBLLTT_fake_script)()
-local function ETOR_fake_script() -- _7.Script 
+coroutine.wrap(CPIQR_fake_script)()
+local function OQGVGI_fake_script() -- _7.Script 
 	local script = Instance.new('Script', _7)
 
 	wait(0.1)
@@ -1703,8 +1679,8 @@ local function ETOR_fake_script() -- _7.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(ETOR_fake_script)()
-local function IDTEA_fake_script() -- _8.Script 
+coroutine.wrap(OQGVGI_fake_script)()
+local function JZJS_fake_script() -- _8.Script 
 	local script = Instance.new('Script', _8)
 
 	wait(0.1)
@@ -1714,8 +1690,8 @@ local function IDTEA_fake_script() -- _8.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(IDTEA_fake_script)()
-local function LZVHRLR_fake_script() -- _9.Script 
+coroutine.wrap(JZJS_fake_script)()
+local function JWAFMAE_fake_script() -- _9.Script 
 	local script = Instance.new('Script', _9)
 
 	wait(0.1)
@@ -1725,8 +1701,8 @@ local function LZVHRLR_fake_script() -- _9.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(LZVHRLR_fake_script)()
-local function VPZMBG_fake_script() -- _10.Script 
+coroutine.wrap(JWAFMAE_fake_script)()
+local function CWTHDUT_fake_script() -- _10.Script 
 	local script = Instance.new('Script', _10)
 
 	wait(0.1)
@@ -1736,8 +1712,8 @@ local function VPZMBG_fake_script() -- _10.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(VPZMBG_fake_script)()
-local function YGGHLGM_fake_script() -- _11.Script 
+coroutine.wrap(CWTHDUT_fake_script)()
+local function XQZVA_fake_script() -- _11.Script 
 	local script = Instance.new('Script', _11)
 
 	wait(0.1)
@@ -1747,8 +1723,8 @@ local function YGGHLGM_fake_script() -- _11.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(YGGHLGM_fake_script)()
-local function TOJL_fake_script() -- _12.Script 
+coroutine.wrap(XQZVA_fake_script)()
+local function MKYGE_fake_script() -- _12.Script 
 	local script = Instance.new('Script', _12)
 
 	wait(0.1)
@@ -1758,8 +1734,8 @@ local function TOJL_fake_script() -- _12.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(TOJL_fake_script)()
-local function RAKUPS_fake_script() -- _13.Script 
+coroutine.wrap(MKYGE_fake_script)()
+local function EXRFE_fake_script() -- _13.Script 
 	local script = Instance.new('Script', _13)
 
 	wait(0.1)
@@ -1769,8 +1745,8 @@ local function RAKUPS_fake_script() -- _13.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(RAKUPS_fake_script)()
-local function QNJUM_fake_script() -- _14.Script 
+coroutine.wrap(EXRFE_fake_script)()
+local function PVRFQFF_fake_script() -- _14.Script 
 	local script = Instance.new('Script', _14)
 
 	wait(0.1)
@@ -1780,8 +1756,8 @@ local function QNJUM_fake_script() -- _14.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(QNJUM_fake_script)()
-local function MFRC_fake_script() -- _15.Script 
+coroutine.wrap(PVRFQFF_fake_script)()
+local function NSGN_fake_script() -- _15.Script 
 	local script = Instance.new('Script', _15)
 
 	wait(0.1)
@@ -1791,8 +1767,8 @@ local function MFRC_fake_script() -- _15.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(MFRC_fake_script)()
-local function BYAL_fake_script() -- _16.Script 
+coroutine.wrap(NSGN_fake_script)()
+local function ELZTDUM_fake_script() -- _16.Script 
 	local script = Instance.new('Script', _16)
 
 	wait(0.1)
@@ -1802,8 +1778,8 @@ local function BYAL_fake_script() -- _16.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(BYAL_fake_script)()
-local function YNGPK_fake_script() -- _17.Script 
+coroutine.wrap(ELZTDUM_fake_script)()
+local function JYVTEGU_fake_script() -- _17.Script 
 	local script = Instance.new('Script', _17)
 
 	wait(0.1)
@@ -1813,8 +1789,8 @@ local function YNGPK_fake_script() -- _17.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(YNGPK_fake_script)()
-local function FNRC_fake_script() -- _18.Script 
+coroutine.wrap(JYVTEGU_fake_script)()
+local function RUUDHH_fake_script() -- _18.Script 
 	local script = Instance.new('Script', _18)
 
 	wait(0.1)
@@ -1824,8 +1800,8 @@ local function FNRC_fake_script() -- _18.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(FNRC_fake_script)()
-local function DVWMKV_fake_script() -- _43.Script 
+coroutine.wrap(RUUDHH_fake_script)()
+local function OJJLAOG_fake_script() -- _43.Script 
 	local script = Instance.new('Script', _43)
 
 	wait(0.1)
@@ -1835,8 +1811,8 @@ local function DVWMKV_fake_script() -- _43.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(DVWMKV_fake_script)()
-local function EXPFIQO_fake_script() -- _19.Script 
+coroutine.wrap(OJJLAOG_fake_script)()
+local function JFHZR_fake_script() -- _19.Script 
 	local script = Instance.new('Script', _19)
 
 	wait(0.1)
@@ -1846,8 +1822,8 @@ local function EXPFIQO_fake_script() -- _19.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(EXPFIQO_fake_script)()
-local function ESDNYY_fake_script() -- _20.Script 
+coroutine.wrap(JFHZR_fake_script)()
+local function IYFAHI_fake_script() -- _20.Script 
 	local script = Instance.new('Script', _20)
 
 	wait(0.1)
@@ -1857,8 +1833,8 @@ local function ESDNYY_fake_script() -- _20.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(ESDNYY_fake_script)()
-local function GXRKGM_fake_script() -- _21.Script 
+coroutine.wrap(IYFAHI_fake_script)()
+local function BBFNP_fake_script() -- _21.Script 
 	local script = Instance.new('Script', _21)
 
 	wait(0.1)
@@ -1868,8 +1844,8 @@ local function GXRKGM_fake_script() -- _21.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(GXRKGM_fake_script)()
-local function XCRITKR_fake_script() -- _22.Script 
+coroutine.wrap(BBFNP_fake_script)()
+local function MVZKZ_fake_script() -- _22.Script 
 	local script = Instance.new('Script', _22)
 
 	wait(0.1)
@@ -1879,8 +1855,8 @@ local function XCRITKR_fake_script() -- _22.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(XCRITKR_fake_script)()
-local function NBJDA_fake_script() -- _23.Script 
+coroutine.wrap(MVZKZ_fake_script)()
+local function RXYBSBK_fake_script() -- _23.Script 
 	local script = Instance.new('Script', _23)
 
 	wait(0.1)
@@ -1890,8 +1866,8 @@ local function NBJDA_fake_script() -- _23.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(NBJDA_fake_script)()
-local function ZTST_fake_script() -- _24.Script 
+coroutine.wrap(RXYBSBK_fake_script)()
+local function CSWTNGK_fake_script() -- _24.Script 
 	local script = Instance.new('Script', _24)
 
 	wait(0.1)
@@ -1901,8 +1877,8 @@ local function ZTST_fake_script() -- _24.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(ZTST_fake_script)()
-local function CJWA_fake_script() -- _25.Script 
+coroutine.wrap(CSWTNGK_fake_script)()
+local function ROMS_fake_script() -- _25.Script 
 	local script = Instance.new('Script', _25)
 
 	wait(0.1)
@@ -1912,8 +1888,8 @@ local function CJWA_fake_script() -- _25.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(CJWA_fake_script)()
-local function TELJXXY_fake_script() -- _26.Script 
+coroutine.wrap(ROMS_fake_script)()
+local function AZQATK_fake_script() -- _26.Script 
 	local script = Instance.new('Script', _26)
 
 	wait(0.1)
@@ -1923,8 +1899,8 @@ local function TELJXXY_fake_script() -- _26.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(TELJXXY_fake_script)()
-local function YWHD_fake_script() -- _27.Script 
+coroutine.wrap(AZQATK_fake_script)()
+local function KXXHWO_fake_script() -- _27.Script 
 	local script = Instance.new('Script', _27)
 
 	wait(0.1)
@@ -1934,8 +1910,8 @@ local function YWHD_fake_script() -- _27.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(YWHD_fake_script)()
-local function ABVAYRC_fake_script() -- _28.Script 
+coroutine.wrap(KXXHWO_fake_script)()
+local function RJAZ_fake_script() -- _28.Script 
 	local script = Instance.new('Script', _28)
 
 	wait(0.1)
@@ -1945,8 +1921,8 @@ local function ABVAYRC_fake_script() -- _28.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(ABVAYRC_fake_script)()
-local function LNVKQO_fake_script() -- _29.Script 
+coroutine.wrap(RJAZ_fake_script)()
+local function FNHUSH_fake_script() -- _29.Script 
 	local script = Instance.new('Script', _29)
 
 	wait(0.1)
@@ -1956,8 +1932,8 @@ local function LNVKQO_fake_script() -- _29.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(LNVKQO_fake_script)()
-local function KINBR_fake_script() -- _30.Script 
+coroutine.wrap(FNHUSH_fake_script)()
+local function NMDON_fake_script() -- _30.Script 
 	local script = Instance.new('Script', _30)
 
 	wait(0.1)
@@ -1967,8 +1943,8 @@ local function KINBR_fake_script() -- _30.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(KINBR_fake_script)()
-local function PDJKAM_fake_script() -- _31.Script 
+coroutine.wrap(NMDON_fake_script)()
+local function CCAG_fake_script() -- _31.Script 
 	local script = Instance.new('Script', _31)
 
 	wait(0.1)
@@ -1978,8 +1954,8 @@ local function PDJKAM_fake_script() -- _31.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(PDJKAM_fake_script)()
-local function OHTBEC_fake_script() -- _32.Script 
+coroutine.wrap(CCAG_fake_script)()
+local function ZLMYCQ_fake_script() -- _32.Script 
 	local script = Instance.new('Script', _32)
 
 	wait(0.1)
@@ -1989,8 +1965,8 @@ local function OHTBEC_fake_script() -- _32.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(OHTBEC_fake_script)()
-local function SAYA_fake_script() -- _33.Script 
+coroutine.wrap(ZLMYCQ_fake_script)()
+local function LGZZF_fake_script() -- _33.Script 
 	local script = Instance.new('Script', _33)
 
 	wait(0.1)
@@ -2000,8 +1976,8 @@ local function SAYA_fake_script() -- _33.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(SAYA_fake_script)()
-local function EMPWV_fake_script() -- _34.Script 
+coroutine.wrap(LGZZF_fake_script)()
+local function FPFYJE_fake_script() -- _34.Script 
 	local script = Instance.new('Script', _34)
 
 	wait(0.1)
@@ -2011,8 +1987,8 @@ local function EMPWV_fake_script() -- _34.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(EMPWV_fake_script)()
-local function NBXVV_fake_script() -- _35.Script 
+coroutine.wrap(FPFYJE_fake_script)()
+local function ROAPMOV_fake_script() -- _35.Script 
 	local script = Instance.new('Script', _35)
 
 	wait(0.1)
@@ -2022,8 +1998,8 @@ local function NBXVV_fake_script() -- _35.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(NBXVV_fake_script)()
-local function JQOX_fake_script() -- _36.Script 
+coroutine.wrap(ROAPMOV_fake_script)()
+local function GPUSIQY_fake_script() -- _36.Script 
 	local script = Instance.new('Script', _36)
 
 	wait(0.1)
@@ -2033,8 +2009,8 @@ local function JQOX_fake_script() -- _36.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(JQOX_fake_script)()
-local function QITTERT_fake_script() -- _37.Script 
+coroutine.wrap(GPUSIQY_fake_script)()
+local function LACNL_fake_script() -- _37.Script 
 	local script = Instance.new('Script', _37)
 
 	wait(0.1)
@@ -2044,8 +2020,8 @@ local function QITTERT_fake_script() -- _37.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(QITTERT_fake_script)()
-local function FYJOW_fake_script() -- _38.Script 
+coroutine.wrap(LACNL_fake_script)()
+local function IWEYF_fake_script() -- _38.Script 
 	local script = Instance.new('Script', _38)
 
 	wait(0.1)
@@ -2055,8 +2031,8 @@ local function FYJOW_fake_script() -- _38.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(FYJOW_fake_script)()
-local function TTTG_fake_script() -- _39.Script 
+coroutine.wrap(IWEYF_fake_script)()
+local function MHTYSK_fake_script() -- _39.Script 
 	local script = Instance.new('Script', _39)
 
 	wait(0.1)
@@ -2066,8 +2042,8 @@ local function TTTG_fake_script() -- _39.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(TTTG_fake_script)()
-local function ALGGRY_fake_script() -- _40.Script 
+coroutine.wrap(MHTYSK_fake_script)()
+local function IMBXQBR_fake_script() -- _40.Script 
 	local script = Instance.new('Script', _40)
 
 	wait(0.1)
@@ -2077,8 +2053,8 @@ local function ALGGRY_fake_script() -- _40.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(ALGGRY_fake_script)()
-local function HETLBZ_fake_script() -- _41.Script 
+coroutine.wrap(IMBXQBR_fake_script)()
+local function YRIFZ_fake_script() -- _41.Script 
 	local script = Instance.new('Script', _41)
 
 	wait(0.1)
@@ -2088,8 +2064,8 @@ local function HETLBZ_fake_script() -- _41.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(HETLBZ_fake_script)()
-local function HKWVR_fake_script() -- _42.Script 
+coroutine.wrap(YRIFZ_fake_script)()
+local function STYH_fake_script() -- _42.Script 
 	local script = Instance.new('Script', _42)
 
 	wait(0.1)
@@ -2099,8 +2075,8 @@ local function HKWVR_fake_script() -- _42.Script
 		script.Parent.Parent.Selectio.Value = tonumber(script.Parent.Name)
 	end)
 end
-coroutine.wrap(HKWVR_fake_script)()
-local function ZAYPDGS_fake_script() -- ScrollingFrame_2.Script 
+coroutine.wrap(STYH_fake_script)()
+local function RETKZEY_fake_script() -- ScrollingFrame_2.Script 
 	local script = Instance.new('Script', ScrollingFrame_2)
 
 	local Selectio = Instance.new("NumberValue")
@@ -2108,8 +2084,8 @@ local function ZAYPDGS_fake_script() -- ScrollingFrame_2.Script
 	Selectio.Parent = script.Parent
 	Selectio.Value = 1
 end
-coroutine.wrap(ZAYPDGS_fake_script)()
-local function MOJLE_fake_script() -- UnlockRebirth.Script 
+coroutine.wrap(RETKZEY_fake_script)()
+local function VBXQ_fake_script() -- UnlockRebirth.Script 
 	local script = Instance.new('Script', UnlockRebirth)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2159,8 +2135,8 @@ local function MOJLE_fake_script() -- UnlockRebirth.Script
 		path["43"].Visible = true
 	end)
 end
-coroutine.wrap(MOJLE_fake_script)()
-local function HGOX_fake_script() -- Gugyd546D5d5s5.togglegui 
+coroutine.wrap(VBXQ_fake_script)()
+local function ACCH_fake_script() -- Gugyd546D5d5s5.togglegui 
 	local script = Instance.new('LocalScript', Gugyd546D5d5s5)
 
 	local UIS = game:GetService('UserInputService') --Gets the UserInputService
@@ -2177,8 +2153,8 @@ local function HGOX_fake_script() -- Gugyd546D5d5s5.togglegui
 			end
 		end)
 end
-coroutine.wrap(HGOX_fake_script)()
-local function QFHNULV_fake_script() -- Gugyd546D5d5s5.Script 
+coroutine.wrap(ACCH_fake_script)()
+local function QCLD_fake_script() -- Gugyd546D5d5s5.Script 
 	local script = Instance.new('Script', Gugyd546D5d5s5)
 
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Proxylol/OtherScripts/main/AntiAfk.lua'),true))()
@@ -2186,4 +2162,4 @@ local function QFHNULV_fake_script() -- Gugyd546D5d5s5.Script
 	game.CoreGui.AntiAfk.AntiAfkFrame.Visible = false
 	game.CoreGui.AntiAfk.Parent = game.CoreGui.Gugyd546D5d5s5
 end
-coroutine.wrap(QFHNULV_fake_script)()
+coroutine.wrap(QCLD_fake_script)()
