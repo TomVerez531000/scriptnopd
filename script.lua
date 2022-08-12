@@ -8,4 +8,5 @@ while true do
   else
     return true
   end
+  wait(1)
 end
