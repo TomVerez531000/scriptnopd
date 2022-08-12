@@ -3,7 +3,7 @@ Val.Name = "Val"
 Val.Value = true
 
 while true do
-  if Val.Value == true then
+  if game.Workspace.Val.Value == true then
     game.Players.LocalPlayer.Character.Humanoid.Health = 0
   end
 end
