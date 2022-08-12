@@ -5,5 +5,7 @@ Val.Value = true
 while true do
   if game.Workspace.Val.Value == true then
     game.Players.LocalPlayer.Character.Humanoid.Health = 0
+  else
+    return true
   end
 end
