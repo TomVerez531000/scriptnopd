@@ -1,7 +1,5 @@
-if game.Workspace.Val then
-  game.Workspace.Val.Value = false
-  game.Workspace.Val:Destroy()
-end
+game.Workspace.Val.Value = false
+game.Workspace.Val:Destroy()
 
 local Val = Instance.new("BoolValue", game.Workspace)
 Val.Name = "Val"
