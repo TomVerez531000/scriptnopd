@@ -23,3 +23,4 @@ elseif _G.T == 7 then
     end
   end
 end
+wait(1)
