@@ -1,4 +1,3 @@
-game.Workspace.Val.Value = false
 game.Workspace.Val:Destroy()
 
 local Val = Instance.new("BoolValue", game.Workspace)
